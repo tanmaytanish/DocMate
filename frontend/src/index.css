@@ -8,6 +8,9 @@
 .bg-primary {
   background-color: #5f6FFF;
 }
+.hover\:bg-primary:hover {
+  background-color: #5f6FFF;
+}
 
 .active hr{
     display: block;
