@@ -34,13 +34,13 @@ const Footer = () => {
                     <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
                     <ul className="flex flex-col gap-2 text-gray-600">
                         <li className="flex items-center gap-2">
-                            <Phone size={16} className="text-primary text-green-600" />
+                            <Phone size={16} className=" text-green-600" />
                             <a href="tel:+918458005099" className="hover:text-primary">
                                 +91 8458005099
                             </a>
                         </li>
                         <li className="flex items-center gap-2">
-                            <Mail size={16} className="text-primary text-blue-600" />
+                            <Mail size={16} className=" text-blue-600" />
                             <a href="mailto:support@docmate.com" className="hover:text-primary">
                                 support@docmate.com
                             </a>

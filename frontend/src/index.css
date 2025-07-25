@@ -28,3 +28,14 @@
 .text-primary{
   color: #5f6FFF;
 }
+
+.border-primary{
+  border-color: #5f6FFF;
+}
+
+@media (max-width: 740px) {
+  .active p {
+    color: white;
+    background-color: #5f6FFF; /* match your .bg-primary */
+  }
+}
