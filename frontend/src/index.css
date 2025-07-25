@@ -25,3 +25,6 @@
   display: grid; /* optional */
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
+.text-primary{
+  color: #5f6FFF;
+}
