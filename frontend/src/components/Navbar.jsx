@@ -40,6 +40,10 @@ const Navbar = () => {
                     <li className="py-1">CONTACT</li>
                     <hr className="border-none bg-primary outline-none h-0.5 w-3/5 m-auto hidden" />
                 </NavLink>
+
+                <div>
+                    <button className="rounded-full cursor-pointer px-2 py-2 bg-white border border-primary text-primary"><a href="https://docmate-panel.onrender.com">Admin Panel</a></button>
+                </div>
             </ul>
             <div className="flex items-center gap-4">
                 {token && userData ?
