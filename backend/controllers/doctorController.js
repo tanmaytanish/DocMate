@@ -62,7 +62,7 @@ const appointmentsDoctor = async (req, res) => {
     }
 };
 
-// API to mark appointment ccompleted
+// API to mark appointment completed
 const appointmentComplete = async (req, res) => {
     try {
         const {docId, appointmentId} = req.body;
