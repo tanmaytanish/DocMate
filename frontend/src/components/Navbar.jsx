@@ -70,8 +70,14 @@ const Navbar = () => {
                 
                 {/* -----------------Responsive Menu Bar-------------------- */}
 
+                <div>
+                    <button className="rounded-full md:hidden cursor-pointer px-2 py-2 bg-white border border-primary text-primary"><a href="https://docmate-panel.onrender.com">Admin Panel</a></button>
+                </div>
+
                 <img onClick={()=>setShowMenu(true)} className="w-6 md:hidden"
                  src={assets.menu_icon} alt="" />
+
+                 
 
                 <div className={` ${showMenu ? "fixed w-full" : "h-0 w-0" } 
                 md:hidden right-0 top-0 bottom-0 z-20 overflow-hidden bg-white transition-all`}>
@@ -79,6 +85,10 @@ const Navbar = () => {
                         <img className="w-36" src={assets.logo} alt="" />
                         <img className="w-7" onClick={()=>setShowMenu(false)} src={assets.cross_icon} alt="" />
                     </div>
+
+                    
+
+                    
 
                     <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
                         <NavLink  onClick={()=>setShowMenu(false)} to="/home"> <p className="px-4 py-2 rounded inline-block">HOME</p></NavLink>
